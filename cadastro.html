@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crie sua conta</title>
+    <link rel="stylesheet" href="style/cadastro.css">
+</head>
+<body>
+    <div class="cadastro-container">
+        <h2>Crie sua conta</h2>
+        <form>
+            <div class="input-container">
+                <label for="firstName">Nome</label>
+                <input type="text" id="firstName" placeholder="Digite seu nome">
+            </div>
+
+            <div class="input-container">
+                <label for="lastName">Sobrenome</label>
+                <input type="text" id="lastName" placeholder="Digite seu Sobrenome">
+            </div>
+
+            <div class="input-container">
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="Digite seu email">
+            </div>
+
+            <div class="input-container">
+                <label for="confirmEmail">Confirme o email</label>
+                <input type="email" id="confirmEmail" placeholder="Confirme seu email">
+            </div>
+
+            <div class="input-container">
+                <label for="password">Senha</label>
+                <input type="password" id="password" placeholder="Digite sua senha">
+            </div>
+
+            <div class="input-container">
+                <label for="confirmPassword">Confirme a senha</label>
+                <input type="password" id="confirmPassword" placeholder="Confirme sua senha">
+            </div>
+
+            <div class="input-container">
+                <label for="age">Idade</label>
+                <input type="number" id="age" placeholder="Digite sua idade">
+            </div>
+
+            <div class="input-container">
+                <label for="country">País</label>
+                <input type="text" id="country" placeholder="Digite seu país">
+            </div>
+
+            <div class="input-container">
+                <label for="contactPhone">Telefone</label>
+                <input type="tel" id="contactPhone" placeholder="Digite seu número">
+            </div>
+
+            <div class="input-container">
+                <label for="gender">Gênero</label>
+                <select id="gender">
+                    <option value="">Selecione seu gênero</option>
+                    <option value="male">Homem</option>
+                    <option value="female">Mulher</option>
+                </select>
+            </div>
+
+            <button type="submit" class="cadastro-button">Cadastrar</button>
+        </form>
+        
+        <p class="login-link">Já tem uma conta? <a href="http://127.0.0.1:5500/login.html">Entrar</a></p>
+    </div>
+</body>
+</html>
